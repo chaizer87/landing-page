@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Set Pisau Dapur 6 in 1</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body{
+      background:#f5f5f5;
+      color:#333;
+    }
+
+    .hero{
+      width:100%;
+      min-height:100vh;
+      background:linear-gradient(to bottom,#fff,#f3f3f3);
+      padding:30px 20px 60px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+
+    .container{
+      max-width:1100px;
+      width:100%;
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:40px;
+      align-items:center;
+      background:#fff;
+      border-radius:30px;
+      overflow:hidden;
+      box-shadow:0 15px 40px rgba(0,0,0,0.12);
+    }
+
+    .image-box{
+      background:#fafafa;
+      padding:20px;
+    }
+
+    .image-box img{
+      width:100%;
+      border-radius:20px;
+    }
+
+    .content{
+      padding:40px;
+    }
+
+    .badge{
+      display:inline-block;
+      background:#ff4d4d;
+      color:white;
+      padding:8px 18px;
+      border-radius:50px;
+      font-size:14px;
+      font-weight:600;
+      margin-bottom:20px;
+      animation:pulse 1.5s infinite;
+    }
+
+    @keyframes pulse{
+      0%{transform:scale(1);}
+      50%{transform:scale(1.05);}
+      100%{transform:scale(1);}
+    }
+
+    h1{
+      font-size:48px;
+      line-height:1.2;
+      margin-bottom:20px;
+      color:#222;
+    }
+
+    .desc{
+      font-size:18px;
+      line-height:1.8;
+      color:#666;
+      margin-bottom:25px;
+    }
+
+    .price{
+      margin-bottom:25px;
+    }
+
+    .old-price{
+      font-size:28px;
+      text-decoration:line-through;
+      color:#999;
+      margin-right:15px;
+    }
+
+    .new-price{
+      font-size:52px;
+      font-weight:700;
+      color:#ff3d3d;
+    }
+
+    .features{
+      margin-bottom:30px;
+    }
+
+    .features li{
+      list-style:none;
+      margin-bottom:12px;
+      font-size:17px;
+      color:#444;
+    }
+
+    .features li::before{
+      content:"✔";
+      color:#00b894;
+      font-weight:bold;
+      margin-right:10px;
+    }
+
+    .cta{
+      display:flex;
+      gap:15px;
+      flex-wrap:wrap;
+    }
+
+    .btn{
+      text-decoration:none;
+      padding:18px 35px;
+      border-radius:60px;
+      font-size:18px;
+      font-weight:600;
+      transition:0.3s;
+      display:inline-block;
+    }
+
+    .btn-wa{
+      background:#25D366;
+      color:white;
+      box-shadow:0 10px 20px rgba(37,211,102,0.3);
+    }
+
+    .btn-wa:hover{
+      transform:translateY(-4px);
+      background:#1ebe5d;
+    }
+
+    .btn-outline{
+      border:2px solid #ddd;
+      color:#555;
+    }
+
+    .btn-outline:hover{
+      background:#f7f7f7;
+    }
+
+    .caption{
+      margin-top:30px;
+      background:#fff6e8;
+      padding:20px;
+      border-radius:20px;
+      border-left:5px solid orange;
+      font-size:16px;
+      line-height:1.7;
+      color:#555;
+    }
+
+    .stock{
+      margin-top:20px;
+      color:#ff3d3d;
+      font-weight:600;
+      font-size:16px;
+    }
+
+    @media(max-width:900px){
+      .container{
+        grid-template-columns:1fr;
+      }
+
+      h1{
+        font-size:38px;
+      }
+
+      .new-price{
+        font-size:44px;
+      }
+
+      .content{
+        padding:30px 25px 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<section class="hero">
+
+  <div class="container">
+
+    <div class="image-box">
+      <img src="https://i.postimg.cc/0ypZcRkw/1setpisau.png" alt="Set Pisau Dapur 6 in 1">
+    </div>
+
+    <div class="content">
+
+      <div class="badge">
+        PROMO TERBATAS 🔥
+      </div>
+
+      <h1>
+        Set Pisau Dapur <br> 6 in 1 Premium
+      </h1>
+
+      <p class="desc">
+        Masak jadi lebih cepat, rapi, dan nyaman ✨  
+        Cocok untuk ibu rumah tangga, UMKM kuliner, hingga kebutuhan dapur sehari-hari.
+      </p>
+
+      <div class="price">
+        <span class="old-price">Rp125.000</span>
+        <span class="new-price">Rp55.000</span>
+      </div>
+
+      <ul class="features">
+        <li>1 Set Lengkap 6 Peralatan Dapur</li>
+        <li>Pisau Tajam & Anti Karat</li>
+        <li>Handle Nyaman Digunakan</li>
+        <li>Warna Estetik & Premium</li>
+        <li>Bonus Gunting & Pengupas</li>
+      </ul>
+
+      <div class="cta">
+        <a 
+          href="https://wa.me/6282114673893?text=Halo%20saya%20ingin%20pesan%20Set%20Pisau%20Dapur%206%20in%201"
+          class="btn btn-wa"
+          target="_blank">
+          PESAN SEKARANG
+        </a>
+
+        <a href="#" class="btn btn-outline">
+          Lihat Detail
+        </a>
+      </div>
+
+      <div class="stock">
+        ⚠ Stok promo terbatas hari ini!
+      </div>
+
+      <div class="caption">
+        💬 “Pisau tajam, desain cantik, bikin masak jadi makin semangat!  
+        Promo besar-besaran hari ini dari Rp125rb jadi cuma Rp55rb aja!”
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+</body>
+</html>
